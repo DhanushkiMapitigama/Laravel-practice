@@ -18,6 +18,11 @@ Route::get('/', 'PagesController@welcome');
 
 Route::get('/index', 'PagesController@index');
 
+
+
 Route::get('/about', 'PagesController@about');
 
+
+
 Route::resource('posts', 'PostsController');
+
